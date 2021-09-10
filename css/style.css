@@ -1,0 +1,315 @@
+/* Resetando os estilos ja aplicados pelo css */ 
+
+body, h1, h2, h3, ul, li, p {
+    padding: 0;
+    margin: 0; 
+    text-decoration: none;  
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1440px;    
+    background-color: #cf9862;    
+}
+
+.banner{
+    background-size: cover;
+}
+
+.banner img{
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar {    
+    background-color: #272727;      
+}
+
+.navbar ul{
+    text-align: center; 
+    margin: 0 auto;         
+}
+
+.navbar ul li{
+    display: inline-block;  
+    background-color: #272727;
+    margin: 10px 5px 10px 5px;   
+}
+
+.navbar ul li a{     
+    text-decoration: none;
+    color: #ff5d00;
+    font-size: 1.25em;
+    padding: 10px 10px 10px 10px;
+    margin: 0;   
+}
+
+.navbar ul li a:hover{
+    color:#cf9862;
+}
+
+/* Style the main */
+
+.container-main{
+    background-color: #272727;
+    border-top: 1px solid #272727;
+}
+
+/* Style conteúdo */ 
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;    
+    background-color: #272727;   
+}
+
+/* Clearfix para retirar bugs de flutuação */
+
+container::after, .container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Style acompanhamentos */ 
+
+.accompaniments{
+    background-color: #e8cdb7;
+    border: 3px solid #272727;
+    width: 350px;
+    margin: 0 10px;
+    padding: 20px;
+    float: left;
+}
+
+.accompaniments h2{
+    font-size: 2em;
+    padding: 10px 0;
+}
+
+.acomp-photo {
+    list-style: none;
+}
+
+.acomp-photo li{
+    margin: 20px 0;
+    border-top: 3px solid #272727;
+    border-bottom: 3px solid #272727; 
+    padding-bottom: 20px;
+    text-decoration: none;     
+}
+
+.acomp-photo img{
+    width: 150px;
+    border: 1px solid #272727;    
+}
+
+.acomp-photo h3{
+    margin-top: 5px;
+}
+
+.checkbox-acomp{
+    float: right;     
+}
+
+/* Style Cardapio */
+
+.menu{
+    width: 590px;
+    margin: 2px 5px;
+    float: left;
+    background-color: #e8cdb7;    
+}
+
+.menu ul{    
+    list-style: none;       
+}
+
+.menu h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.img-menu li{
+    border-top: 3px solid #272727;
+    border-bottom: 3px solid #272727; 
+    margin: 27px 50px 25px 50px;    
+    padding-bottom: 20px;
+}
+
+.img-menu img{
+    width: 200px;
+    height: 110px;
+    border: 1px solid #272727;    
+}
+
+/* Style Payment */
+
+.payment{
+    background-color: #e8cdb7;
+    width: 390px;
+    float: right;
+    margin: 2px 10px 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.payment h1{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-payment{
+    border: 3px solid #272727;
+    border-radius: 5px;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-payment h2{
+    margin-bottom: 20px;
+}
+
+.info-payment ul{
+    list-style: none;
+    padding-top: 30px;
+}
+
+.payment-img{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.payment-img img {
+    width: 50px;
+    margin-left:10px;
+
+}
+
+/* style formulario */ 
+
+.formulary{
+    background-color: #e8cdb7;
+    width: 390px;
+    float: right;
+    margin: 2px 10px 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.formulary h1{
+    text-align: center; 
+    margin-bottom: 30px;
+    padding-top: 10px;   
+}
+
+.name{
+    margin-left: 80px;
+}
+
+.name input{
+    margin-left: 10px;
+}
+
+.phone{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.phone input{
+    margin-left: 9px;   
+}
+
+.e-mail{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.e-mail input{
+    margin-left: 7px;    
+}
+
+.coments{
+    margin-left: 110px;
+    margin-top: 10px;                        
+}
+
+.coments textarea{
+    margin-left: 24px;                            
+}
+
+.button{
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.contact{
+    width: 400px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #e8cdb7;
+}
+
+.contact h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact img{
+    width: 20px;
+    display: flex;
+    margin-left: 130px;
+    float: left;
+}
+
+.contact p{
+    float: right;
+    padding-right: 120px;
+    font-size: 1.125em; 
+    margin-bottom: 20px;  
+}
+
+/* Style footer */ 
+
+.footer-site{
+    background-color: #272727;
+    text-align: center;
+    color:#ff5d00;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 40px;
+}
+
+.footer-div{
+    background-color: #e8cdb7;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block; 
+    width: 100%;  
+    padding: 10px 10px 10px 10px;
+}
+
+.footer-div p {
+    background-color: #272727;
+}
+
+.footer-media-social img{    
+    width: 30px;   
+    margin-left: 10px; 
+}
+
+.info-payment ul li {
+
+}
+
